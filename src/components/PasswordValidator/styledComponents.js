@@ -25,23 +25,31 @@ export const PasswordValidatorMainContainer = styled.div`
 
 export const TitleHeading = styled.h1`
   font-family: 'Roboto';
-  font-size: 48px;
+  font-size: 24px;
   font-weight: 500;
   color: #ffffff;
   margin-bottom: 15px;
+  text-align: center;
+  @media screen and (min-width: 576px) {
+    font-size: 48px;
+  }
 `
 
 export const DescriptionParagraph = styled.p`
   font-family: 'Roboto';
-  font-size: 18px;
+  font-size: 10px;
   font-weight: 400;
   color: #f8fafc;
+  text-align: center;
+  @media screen and (min-width: 576px) {
+    font-size: 18px;
+  }
 `
 
 export const PasswordInput = styled.input`
-  width: 50%;
+  width: 80%;
   font-family: 'Roboto';
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 500;
   color: #475569;
   background-color: #edeeff;
@@ -49,11 +57,19 @@ export const PasswordInput = styled.input`
   border-radius: 2px;
   padding: 10px 20px 10px 20px;
   margin-top: 50px;
+  @media screen and (min-width: 576px) {
+    font-size: 14px;
+    width: 60%;
+  }
 `
 
 export const ErrorParagraph = styled.p`
   font-family: 'Roboto';
-  font-size: 14px;
+  font-size: 10px;
   font-weight: 500;
   color: #ef4444;
+  text-align: center;
+  @media screen and (min-width: 576px) {
+    font-size: 14px;
+  }
 `
