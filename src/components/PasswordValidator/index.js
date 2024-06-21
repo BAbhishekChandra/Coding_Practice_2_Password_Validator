@@ -21,7 +21,7 @@ const PasswordValidator = () => {
       setErrorMessage('Your password must be at least 8 characters')
     }
     if (inputPassword.length >= 8) {
-      setErrorMessage('greater than or equal to eight characters')
+      setErrorMessage('')
     }
   }
 
